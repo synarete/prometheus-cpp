@@ -15,7 +15,19 @@ Requires:       zlib
 Requires:       libcurl
 Requires:       libnghttp2
 Requires:       libidn2
-
+Requires:       libssh
+Requires:       libpsl
+Requires:       openssl-libs
+Requires:       krb5-libs
+Requires:       libcom_err
+Requires:       openldap
+Requires:       liblber
+Requires:	libbrotli
+Requires:	libunistring
+Requires:	keyutils-libs
+Requires:	keyutils-libs
+Requires:       libxcrypt
+Requires:       pcre2
 BuildRequires:  zlib-devel
 BuildRequires:  libcurl-devel
 
