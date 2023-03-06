@@ -13,6 +13,9 @@ Source:         @CPACK_SOURCE_PACKAGE_FILE_NAME@.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}.%{_arch}
 Requires:       zlib
 Requires:       libcurl
+Requires:       libnghttp2
+Requires:       libidn2
+
 BuildRequires:  zlib-devel
 BuildRequires:  libcurl-devel
 
